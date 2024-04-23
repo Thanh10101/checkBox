@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100vh;
+    background-color: bisque;
+    position: relative;
+}
+
+.menu {
+    width: 1140px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.submenu {
+    width: 12vw;
+    text-align: center;
+}
+
+h1 {
+    height: 50px;
+    border: solid black 1px;
+}
+
+.submenu-1 {
+    display: none;
+    max-width: 30vw;
+    height: 150px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.backgroung-overlay {
+    display: none;
+    margin-top: -150px;
+    max-width: 30vw;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.dropdown {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 5px;
+    position: absolute;
+}
+
+button {
+    width: 100px;
+}
+
+.content {
+    display: flex;
+}
+
+.container-1 {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}
+
+.container-2 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.container-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(169, 111, 35);
+}
+
+.container-4 {
+    width: 200px;
+    height: 200px;
+    background-color: saddlebrown;
+}
+
+.container-5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(149, 97, 197);
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+}
+
+.notify {
+    width: 1140px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    /* Position from the top */
+    left: 50%;
+    /* Position from the left */
+    transform: translate(-50%, -50%);
+    /* Center the notification */
+}
